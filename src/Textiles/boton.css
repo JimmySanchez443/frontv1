@@ -1,0 +1,39 @@
+.custom-button {
+  font-style: arial;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  border-radius: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.custom-button:active {
+  box-shadow: 0px 0px 5px 1px #888888;
+}
+
+.custom-button:hover {
+  background-color: #179e30;
+}
+
+.custom-button:active {
+  transform: translateY(2px);
+}
+
+.custom-button-delete {
+  font-style: arial;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: rgb(227, 8, 8);
+  color: #fff;
+}
+
+.custom-button-delete:hover {
+  background-color: #7b0e0e;
+}
